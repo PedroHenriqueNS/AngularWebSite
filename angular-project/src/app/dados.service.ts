@@ -14,4 +14,9 @@ export class DadosService {
   buscarDadosDeLogin(): ILogin[] {
     return this.login;
   }
+
+  cadastrarLogin(login: ILogin): {
+    
+    this.login.push
+  }
 }

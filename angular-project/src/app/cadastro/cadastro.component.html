@@ -1,2 +1,21 @@
-<p>cadastro works!</p>
-// how to make post method
+<head>
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>CADASTRO</h1>
+
+    <form> <!--Supostamente teria um POST aqui-->
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" id="usuario"><br><br>
+            
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha"><br><br>
+        </fieldset>
+
+        <br>
+        <button (click)="cadastrar()">Cadastrar</button>
+    </form>
+</body>
