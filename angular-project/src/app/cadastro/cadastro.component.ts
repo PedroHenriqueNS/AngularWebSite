@@ -19,15 +19,15 @@ export class CadastroComponent {
 
   cadastrar() {
 
-    let inputUsuario = document.getElementById('usuario') as HTMLInputElement | null;
+    let inputUsuario = document.getElementById('usuario') as HTMLInputElement;
     let valueUsuario = inputUsuario?.value;
 
-    let inputSenha = document.getElementById('senha') as HTMLInputElement | null;
+    let inputSenha = document.getElementById('senha') as HTMLInputElement;
     let valueSenha = inputSenha?.value;
 
-    let login: ILogin {
-      usuario = valueUsuario,
-      senha = valueSenha
+    const login = {
+      usuario: valueUsuario,
+      senha: valueSenha
     }
     
 

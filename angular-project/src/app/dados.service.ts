@@ -15,8 +15,7 @@ export class DadosService {
     return this.login;
   }
 
-  cadastrarLogin(login: ILogin): {
-    
-    this.login.push
+  cadastrarLogin(login: ILogin): void {
+    this.login.push(login);
   }
 }
